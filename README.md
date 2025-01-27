@@ -14,16 +14,16 @@
 - Ενίσχυση της υπευθυνότητας των μαθητών σε θέματα εξοικονόμησης φυσικών πόρων και βιωσιμότητας.
 - Καλλιέργεια ομαδικότητας και συνεργασίας.
 
-- Λίστα προτεινόμενου εξοπλισμού:
-Arduino Uno
-Breadboard
-Jumper Wires 15cm Male to Male - Pack of 10
-Jumper Wires 15cm Female to Female - Pack of 10
-Jumper Wires 15cm Female to Male - Pack of 10
-Αντιστάσεις (Resistor Basic Kit - 100pcs)
-Jumper Wires 4-Pin
-Liquid Pump Motor - Micro 5V
-Silicone Tube Transparent 6x8mm - per meter
-Relay Module - 1 Channel 5V Low Level Trigger (Screw Terminals)
-Alligator to Alligator Cable
-Δεξαμενή νερού
+Λίστα προτεινόμενου εξοπλισμού:
+- Arduino Uno
+- Breadboard
+- Jumper Wires 15cm Male to Male - Pack of 10
+- Jumper Wires 15cm Female to Female - Pack of 10
+- Jumper Wires 15cm Female to Male - Pack of 10
+- Αντιστάσεις (Resistor Basic Kit - 100pcs)
+- Jumper Wires 4-Pin
+- Liquid Pump Motor - Micro 5V
+- Silicone Tube Transparent 6x8mm - per meter
+- Relay Module - 1 Channel 5V Low Level Trigger (Screw Terminals)
+- Alligator to Alligator Cable
+- Δεξαμενή νερού
