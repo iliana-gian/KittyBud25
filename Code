@@ -1,0 +1,41 @@
+/*Kittybud
+ */
+
+#include <Servo.h>
+
+Servo servo_9;
+
+long readUltrasonicDistance(int triggerPin, int echoPin)
+{
+  pinMode(triggerPin, OUTPUT);  // Clear the trigger
+  digitalWrite(triggerPin, LOW);
+  delayMicroseconds(2);
+  // Sets the trigger pin to HIGH state for 10 microseconds
+  digitalWrite(triggerPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(triggerPin, LOW);
+  pinMode(echoPin, INPUT);
+  // Reads the echo pin, and returns the sound wave travel time in microseconds
+  return pulseIn(echoPin, HIGH);
+}
+
+void setup()
+{
+  servo_9.attach(9, 500, 2500);
+  pinMode(11, OUTPUT); //pump
+}
+
+void loop()
+{
+  if (0.01723 * readUltrasonicDistance(3, 4) < 6) {
+    servo_9.write(90);
+		delay(5000);
+		servo_9.write(19);
+    digitalWrite(11, HIGH);
+    delay(000);
+    digitalWrite(11, LOW);
+  } else {
+    servo_9.write(19);
+  }
+  delay(10); 
+}
